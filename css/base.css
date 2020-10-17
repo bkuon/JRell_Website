@@ -12,7 +12,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	position: absolute;
 }
 body {
-	--color-text: #ff00c4;
+	--color-text: #bb9205;
 	--color-bg: #1c1423;
 	--color-link: #59545e;
 	--color-link-hover: #fff;
@@ -394,5 +394,46 @@ a:focus {
 		text-stroke: 3px var(--color-slide-text);
 	}
 }
+
+.contact_container{
+    margin: auto;
+    bottom: 50%;
+    width: 80%;
+    height: 70%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+p.contain_info {
+    color: black;
+	font-family: 'Epilogue', sans-serif;
+	text-align: center;
+}
+.contact_heading{
+	text-align: center;
+	color: #000;
+	font-family: easy_3dregular;
+}
+h2.contact_details{
+    position: relative;
+	left: auto;
+	text-align: center;
+}
+h2.contact_fields{
+    position: relative;
+    left: auto;
+}
+input.input_text:hover{
+    background-color: #bb9205;
+}
+textarea.input_text:hover{
+    background-color: #bb9205;
+}
+form {
+	text-align: center;
+}
+
 
 
