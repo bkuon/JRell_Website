@@ -16,7 +16,7 @@ body {
 	--color-bg: #1c1423;
 	--color-link: #59545e;
 	--color-link-hover: #fff;
-	--color-slide-text: #fff;
+	--color-slide-text: #bb9205;
 	--color-nav: #fff;
 	--font-trail-weight: 900;
 	--font-trail-size: 17vh;
@@ -31,11 +31,11 @@ body {
 }
 
 .demo-2 {
-	--color-text: #173b4e;
+	--color-text: #bb9205;
     --color-bg: #00161f;
-    --color-link: #f53f73;
+    --color-link: #bb9205;
     --color-link-hover: #f6fcff;
-    --color-slide-text: #f6fcff;
+    --color-slide-text: #bb9205;
     --color-nav: #fff;
     --font-trail-weight: 700;
 	--font-trail-size: 15vh;
@@ -44,11 +44,11 @@ body {
 }
 
 .demo-3 {
-	--color-text: #d4115d;
+	--color-text: #bb9205;
     --color-bg: #000000;
-    --color-link: #43b8d1;
+    --color-link: #bb9205;
     --color-link-hover: #fff;
-    --color-slide-text: #43b8d1;
+    --color-slide-text: #bb9205;
     --color-nav: #fff;
    	--font-trail-weight: 400;
 	--font-trail-size: 15vh;
@@ -60,7 +60,7 @@ body {
 	--color-slide-text: #6b12e2;
 	--color-text: #2e00ff;
     --color-bg: #15131b;
-    --color-link: #ff2cff;
+    --color-link: #bb9205;
     --color-nav: #fff;
     --font-trail-weight: 700;
 	--font-trail-size: 15vh;
@@ -399,7 +399,7 @@ a:focus {
     margin: auto;
     bottom: 50%;
     width: 80%;
-    height: 70%;
+    height: 80%;
     padding: 20px;
     background-color: white;
     border: 1px solid black;
