@@ -30,14 +30,10 @@ var audioPlayer = function () {
         _elements.playerButtons.nextTrackBtn.addEventListener("click", function (e) {
             if (_currentTrack < 2) {
                 _currentTrack++;
-                _elements.audio.pause();
-                _setImageNext();
                 _setTrack();
             }
             else {
                 _currentTrack -= 2;
-                _elements.audio.pause();
-                _setImageNext();
                 _setTrack();
             }
         }, false);
@@ -46,14 +42,10 @@ var audioPlayer = function () {
         _elements.playerButtons.previousTrackBtn.addEventListener("click", function (e) {
             if (_currentTrack >= 1) {
                 _currentTrack--;
-                _elements.audio.pause();
-                _setImageNext();
                 _setTrack();
             }
             else {
                 _currentTrack += 2;
-                _elements.audio.pause();
-                _setImageNext();
                 _setTrack();
             }
         }, false);
@@ -76,12 +68,12 @@ var audioPlayer = function () {
     }
 
     var _setTrack = function () {
+        _elements.audio.pause();
+        _setImageNext();
         var songURL = _elements.audio.children[_currentTrack].src;
 
         _elements.audio.setAttribute("src", songURL);
         _elements.audio.load();
-
-        //_playBack();
     };
 
     var _playBack = function () {
