@@ -128,6 +128,9 @@ a:focus {
 	color: var(--color-link-hover);
 	outline: none;
 }
+.bandcamp_link{
+	color: var(--color-link-hover);
+}
 
 .frame {
 	padding: 3rem 5vw 0;
